@@ -20,7 +20,7 @@ Git
 
 1️⃣ Clonar o repositório
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/guillask/WebApplication1
 cd seu-repositorio
 
 2️⃣ Configurar a string de conexão no appsettings.json
