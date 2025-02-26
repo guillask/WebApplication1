@@ -1,4 +1,4 @@
-luxo de Caixa API
+Desafio API
 
 📌 Sobre o projeto
 
@@ -25,7 +25,7 @@ cd seu-repositorio
 
 2️⃣ Configurar a string de conexão no appsettings.json
 
-Edite o arquivo appsettings.json e adicione a string de conexão ao banco de dados:
+Edite o arquivo appsettings.Development.json e adicione a string de conexão ao banco de dados:
 
 "ConnectionStrings": {
   "DefaultConnection": "Server=SEU_SERVIDOR;Database=FluxoCaixaDB;User Id=SEU_USUARIO;Password=SUA_SENHA;"
@@ -47,15 +47,13 @@ dotnet ef migrations add NomeDaMigration
 
 dotnet run
 
-A API estará rodando em http://localhost:5000 ou https://localhost:5001.
+A API estará rodando em http://localhost:5094 ou https://localhost:7234.
 
 📚 Endpoints principais
 
 POST /api/lancamentos → Adiciona um lançamento
 
 GET /api/lancamentos → Lista os lançamentos
-
-GET /api/saldoconsolidado/{data} → Obtém o saldo consolidado
 
 📝 Licença
 
