@@ -31,11 +31,15 @@ Edite o arquivo appsettings.Development.json e adicione a string de conexão ao 
   "DefaultConnection": "Server=SEU_SERVIDOR;Database=FluxoCaixaDB;User Id=SEU_USUARIO;Password=SUA_SENHA;"
 }
 
+Alterar tambem o arquivo AppDbContextFactory.cs adicionando a string de conexão do banco de dados
+
 3️⃣ Instalar as dependências
 
 dotnet restore
 
 4️⃣ Criar o banco de dados e rodar as migrations
+
+dotnet tool install --global dotnet-ef
 
 dotnet ef database update
 
