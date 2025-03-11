@@ -18,7 +18,7 @@ Git
 
 Arquitetura:
 
-![Fluxo de Caixa](images/screenshot.png)
+![Arquitetura](https://github.com/guillask/WebApplication1/blob/master/images/desafio.png)
 
 🚀 Como rodar o projeto
 
