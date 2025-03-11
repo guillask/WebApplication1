@@ -16,6 +16,10 @@ Docker (Opcional)
 
 Git
 
+Arquitetura:
+
+![Fluxo de Caixa](images/screenshot.png)
+
 🚀 Como rodar o projeto
 
 1️⃣ Clonar o repositório
